@@ -72,9 +72,9 @@
  }
  A.1<-as.factor(A.1)
  A.1par<-as.vector(NULL)
- A.1par[A.1==letters[1]]<-1
- A.1par[A.1==letters[2]]<-2
- A.1par[A.1==letters[3]]<-3
+ A.1par[A.1==letters[1]]<-0
+ A.1par[A.1==letters[2]]<-1
+ A.1par[A.1==letters[3]]<-2
 
 
  L.2<-rnorm(n,1+A.1par+L.1+U,1)
@@ -85,9 +85,9 @@
  }
  A.2<-as.factor(A.2)
  A.2par<-as.vector(NULL)
- A.2par[A.2==letters[1]]<-1
- A.2par[A.2==letters[2]]<-2
- A.2par[A.2==letters[3]]<-3
+ A.2par[A.2==letters[1]]<-0
+ A.2par[A.2==letters[2]]<-1
+ A.2par[A.2==letters[3]]<-2
 
 
 
@@ -100,9 +100,9 @@
  }
  A.3<-as.factor(A.3)
  A.3par<-as.vector(NULL)
- A.3par[A.3==letters[1]]<-1
- A.3par[A.3==letters[2]]<-2
- A.3par[A.3==letters[3]]<-3
+ A.3par[A.3==letters[1]]<-0
+ A.3par[A.3==letters[2]]<-1
+ A.3par[A.3==letters[3]]<-2
 
  Y<-rnorm(n,1+A.1par+A.2par+A.3par+L.1+L.2+L.3+U,1)
 
