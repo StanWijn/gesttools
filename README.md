@@ -1,5 +1,5 @@
 # gesttools: General Purpose G estimation in R
-In this paper we document gesttools, a series of general purpose, user friendly functions with which to perform
+Here we document gesttools, a series of general purpose, user friendly functions with which to perform
 g-estimation of structural nested mean models (SNMMs), with the intent to provide g-estimation techniques for datasets 
 with a wide variety of exposure and outcome types in R.
 
