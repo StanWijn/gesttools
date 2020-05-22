@@ -17,7 +17,7 @@ The functions also support censoring weights for missing data and confidence int
 In order to run gesttools, first run "Loadpackages.R" to obtain the required dependent packages, then run the 5 major functions
 that perform g-estimation, "gest.R", "gestmult.R", "gest.cat", "gestmult.cat", and the bootstrap function "gest.boot". 
 
-A user guide for using gesttools can be found in this repository under "gesttoolsimplementation.pdf" which uses R code found in 
+A user guide for using gesttools can be found in this repository which uses R code found in 
 "SimulatedExamples.R"
 
 An associated paper is in development to provide a comprehensive introduction to gesttools including an explanation of the SNMM types,
