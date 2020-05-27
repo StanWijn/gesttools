@@ -12,6 +12,7 @@ install.packages("tibble") #as_tibble function
 install.packages("geeM") #geem function
 install.packages("rsample") #bootstraps function
 install.packages("nnet") # multinom function
+install.packages("timeSeries") # colStdevs function for bootstrap
 
 library(DataCombine)#slide function
 library(tidyr)#nest_legacy function for bootstrap
@@ -20,3 +21,4 @@ library(tibble)#as_tibble function
 library(geeM)# geem function
 library(rsample)# bootstrap
 library(nnet) # multinom function
+library(timeSeries) # colStdevs function for bootstrap
