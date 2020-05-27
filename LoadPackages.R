@@ -11,6 +11,7 @@ install.packages("dplyr") #tbl
 install.packages("tibble") #as_tibble function
 install.packages("geeM") #geem function
 install.packages("rsample") #bootstraps function
+install.packages("nnet") # multinom function
 
 library(DataCombine)#slide function
 library(tidyr)#nest_legacy function for bootstrap
@@ -18,3 +19,4 @@ library(dplyr)#tbl
 library(tibble)#as_tibble function
 library(geeM)# geem function
 library(rsample)# bootstrap
+library(nnet) # multinom function
